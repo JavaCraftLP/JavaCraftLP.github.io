@@ -785,58 +785,47 @@
        HIER DEINE DATEN EINTRAGEN — der Rest läuft automatisch.
        ============================================================ */
     const CONFIG = {
-      name: "Vorname Nachname",          // dein Name
+      name: "Marlon",          // dein Name
       role: "Digital Engineer",          // Kurz-Rolle für Stempel/Nav
       eyebrow: "DIGITAL ENGINEERING // PORTFOLIO",
 
       taglines: [                        // rotieren im Terminal-Stil
-        "Python · Flask · TDD",
-        "Code für Handwerk & smarte Tools",
+        "Python · Flask · HTML · CPP",
+        "Codieren",
         "Digital Engineering @ HM München",
-        "Micro-SaaS Builder"
       ],
-
-      heroDesc: "Kurzer Einstiegssatz: was du machst, für wen, und was dich besonders macht.",
-      about: "Schreib hier 2–3 Sätze über dich: Hintergrund, Fokus, was dich antreibt. Kann auch mehrere <br><br> Absätze sein — einfach im HTML weitere <p> Tags im about-text Block ergänzen, falls gewünscht.",
+      //"Kurzer Einstiegssatz: was du machst, für wen, und was dich besonders macht."
+      heroDesc: "Hello, World",
+      //"Schreib hier 2–3 Sätze über dich: Hintergrund, Fokus, was dich antreibt. Kann auch mehrere <br><br> Absätze sein — einfach im HTML weitere <p> Tags im about-text Block ergänzen, falls gewünscht.",
+      about: "Digital Engineering Student an der HM München",
 
       links: {
-        linkedin: "https://www.linkedin.com/in/dein-profil",   // <- HIER LinkedIn-Link eintragen
+        linkedin: "www.linkedin.com/in/marlon-fauerbach-b659333b7",   // <- HIER LinkedIn-Link eintragen
         email: "deine@email.de"
       },
 
       skills: [
         { name: "Python / Flask", level: 4 },
-        { name: "Test-Driven Development", level: 4 },
-        { name: "C++", level: 3 },
-        { name: "Datenbanken", level: 3 },
-        { name: "CAD / Konstruktion", level: 3 },
+        { name: "C++", level: 4 },
+        { name: "CAD / Konstruktion", level: 5 },
         { name: "IT-Security Grundlagen", level: 2 }
       ],
 
       projects: [
         {
-          title: "Projektname 01",
-          rev: "A",
-          status: "LIVE",
-          desc: "Kurze Beschreibung: Problem, Lösung, dein Beitrag.",
-          tags: ["Python", "Flask", "TDD"],
-          link: "#"
+          title: "Flask Server",
+          desc: "Backend mit Flask gebaut – Routing, Datenverarbeitung, saubere Struktur.",
+          tags: ["Python", "Flask"],
         },
         {
-          title: "Projektname 02",
-          rev: "B",
-          status: "IN ARBEIT",
-          desc: "Kurze Beschreibung: Problem, Lösung, dein Beitrag.",
-          tags: ["C++", "CAD"],
-          link: "#"
+          title: "Website",
+          desc: "Website – HTML, CSS von Grund auf umgesetzt.",
+          tags: ["HTML", "CSS", "JavaScript"],
         },
         {
-          title: "Projektname 03",
-          rev: "A",
-          status: "ARCHIV",
-          desc: "Kurze Beschreibung: Problem, Lösung, dein Beitrag.",
-          tags: ["Micro-SaaS", "Business"],
-          link: "#"
+          title: "Analoger Sensor Reader",
+          desc: "Analogen Sensor ausgelesen und Werte verarbeitet.",
+          tags: ["Arduino", "C++"],
         }
       ]
     };
